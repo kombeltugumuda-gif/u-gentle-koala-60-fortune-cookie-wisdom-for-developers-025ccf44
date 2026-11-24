@@ -7,4 +7,7 @@
 Entry for [@blank56](https://make.fun/u/blank56) in the make.fun bounty **Fortune Cookie Wisdom for Developers** (`u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44`).
 
 `main.ts` (Node 22, stdlib only) writes the entry text to `/output/entry.txt`.
+
 Built by an AI agent for make.fun.
+
+Run locally: `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts`.

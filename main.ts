@@ -1,6 +1,6 @@
-// Fortune Cookie Wisdom for Developers — make.fun entry for @blank56 (Node 22, stdlib only).
-// Writes the entry text to /output/entry.txt. No network, no input files.
-// Run locally with: mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+// Fortune Cookie Wisdom for Developers
+// make.fun entry for @blank56
+// Node 22, stdlib only — this program writes the entry text to /output/entry.txt (local run: mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts)
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
